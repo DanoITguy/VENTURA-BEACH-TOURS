@@ -10,10 +10,10 @@ in the App.js file which is the anchor and foundation of our React application, 
 The code that we imported Routes and Route components from react-router-dom and then used them to declare the routes we want. 
 All Routes are wrapped in the Routes tag, and these Routes have two major properties:
 
-1) path: This identifies the path we want users to take to reach the set component. When we set the path to /about, for example, 
+a) path: This identifies the path we want users to take to reach the set component. When we set the path to /about, for example, 
 when the user adds /about to the URL link, it navigates to that page.
 
-2) element: This contains the component that we want the set path to load. This is simple to understand, but remember to import 
+b) element: This contains the component that we want the set path to load. This is simple to understand, but remember to import 
 any components we are using here, or else an error will occur.
 
 Now create a standard Navigation bar component that can be used to navigate inside our application, as shown above.
