@@ -3,7 +3,7 @@ VENTURA BEACH TOURS
 https://venturabeachtours.com
 
 
-The React route diagram of this project is a roadmap of the various pages and how they are all tied together. 
+1) The React route diagram of this project is a roadmap of the various pages and how they are all tied together. 
 Specifically, the Home Page, the About Page, and the Products Page are properly setup, then the routes are configured
 in the App.js file which is the anchor and foundation of our React application, as the website grows and evolves.
 
@@ -22,7 +22,7 @@ until a user navigates to that page, allowing our application to load faster tha
 at once. This contributes to improved performance, which leads to a positive user experience.
 
 SUMMARY
-1) I found that to implement lazy loading, go to App.js and wrap my routes with the Suspense component, along with a fallback 
+2) I found that to implement lazy loading, go to App.js and wrap my routes with the Suspense component, along with a fallback 
 props that are rendered on the screen until the component loads. Please note that is important for you to know that the 
 fallback props can hold a component. I learned about routing and how to implement it in my React application. The React router 
 is what allows my project to perform single-page routing without reloading the application.
